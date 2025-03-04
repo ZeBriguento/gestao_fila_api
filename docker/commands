@@ -1,0 +1,3 @@
+Reiniciar todos os containers
+docker restart $(docker ps -a -q)
+
